@@ -36,8 +36,8 @@ for j in range(0,n):
     v.append(b)
 for k in range(0,n):
     flag=0
-    str1=rahul[k]
-    str2=vamshi[k]
+    str1=r[k]
+    str2=v[k]
     if(len(str1)==len(str2)):
         for o in range(0,len(str1)):
             if(str1[o]!=str2[o]):
